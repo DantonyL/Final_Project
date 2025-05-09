@@ -1,5 +1,6 @@
 ---
-title: "Untitled"
+title: "Final Project"
+subtitle: "BIOL 607"
 output: html_document
 date: "2025-05-09"
 ---
@@ -8,19 +9,23 @@ date: "2025-05-09"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Question / Hypothesis
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Loss of *PHYA*, PHYB, CRYP1, CRYP2 (photoreceptorsL phytochrome, cryptochrome) promotes growth in light responsive gene networks in Arabadopsis thailania.
 
 ```{r cars}
 summary(cars)
 ```
 
-## Including Plots
+## Techniques Used
 
-You can also embed plots, for example:
+Linear Model - p values and anova( F )
+
+Tukey's (HSD) Test - determine which group means are significantly different from each other (mutants differ from mutant or WT)
+
+AIC Table/Graph - use Delta to find difference from best model, plot shows model-averaged predictions
+
+MA Plot (limma) - Asses gene expression (PhyB), see how much differently the two genes are expressed.
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
